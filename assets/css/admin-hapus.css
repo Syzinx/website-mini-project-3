@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.buku-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-card {
+    margin: 10px 10px 35px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.book-card img {
+    max-width: 150px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+.book-card h3 {
+    margin-bottom: 10px;
+}
+
+.book-card p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #337ab7;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #23527c;
+}
+
+.btn-delete {
+    background-color: #d9534f;
+    margin-right: 5px;
+}

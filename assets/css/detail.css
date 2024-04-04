@@ -1,0 +1,134 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.header {
+   width: 100%;
+   padding: 15px;
+}
+
+.header h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  margin-left: 20px;
+  color: rgb(10, 6, 69);
+}
+
+.container {
+   height: 430px;
+   background-color: #9fbcd9;
+   padding: 40px 10%;
+}
+
+.thumbnail {
+   float: left;
+   width: 250px;
+   height: 350px;
+   border-radius: 15px;
+}
+
+.banner-detail {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 5px 0px 10px 0px;
+   height: 100%;
+   font-size: 18px;
+   margin-left: 280px;
+}
+
+.details {
+   line-height: 40px;
+   color: #3a4753;
+}
+
+.header-tittle {
+   display: flex;
+   justify-content: space-between;
+   color: #232b33;
+   margin-bottom: 8px;
+}
+
+.judul {
+   font-size: 32px;
+   font-weight: bold;
+}
+
+.kategori img {
+   vertical-align: middle;
+   width: 26px;
+   margin-right: 8px;
+}
+
+.penulis,
+.penerbit {
+   margin-top: 15px;
+}
+
+.buttons {
+   display: flex;
+   justify-content: space-between;
+}
+
+.btn {
+   display: inline-block;
+   padding: 10px 20px;
+   font-size: 16px;
+   text-align: center;
+   text-decoration: none;
+   color: #fff;
+   background-color: #0f345c;
+   border: none;
+   border-radius: 5px;
+}
+
+.btn:hover {
+   background-color: #1269c6;
+   color: rgb(203, 202, 213);
+}
+
+.btn-back-home {
+   background-color: #5c0f0f;
+   margin-left: 10px;
+}
+
+.btn-back-home:hover {
+   background-color: #c42b3b;
+}
+
+.btn-login {
+   background-color: #258013;
+   margin-left: 10px;
+}
+
+.btn-login:hover {
+   background-color: #2bc430;
+}
+
+.banner-sinopsis {
+   margin-top: 30px;
+}
+
+.deskripsi {
+   font-family: cursive;
+   color: rgb(72, 72, 72);
+   margin-top: 30px;
+   padding: 0 5%;
+   margin-bottom: 30px;
+}
+
+.deskripsi h3 {
+   color: #333;
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+.deskripsi p {
+   color: #4f4f4f;
+   font-size: 16px;
+   line-height: 2;
+   text-align: justify;
+}

@@ -1,0 +1,101 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    margin: 25px;
+    background-color: #fff;
+}
+div.float {
+    margin: 25px;
+}
+h1#data, h1#riwayat{
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: #32435f4b 1px solid;
+}
+div.book-details{
+    display: flex;
+    flex-direction: column;
+}
+div.book-list-pinjam {
+    display: flex;
+    max-width: 330px;
+    margin-left: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+button.btn-kembalikan{
+    margin-top : 7px;
+    padding: 2px;
+    min-width: 90px;
+    background-color: #32435f;
+    color:#fff ;
+    border-radius: 10px;
+}
+a.btn-read{
+    margin-top: 10px;
+    padding: 2px 2px 2px 4px;
+    color: black;
+    background-color: rgba(8, 253, 81, 0.692);
+    max-width: 90px;
+    border: rgba(12, 12, 12, 0.315) 1px solid ;
+    border-radius: 10px;
+}
+.book-list-riwayat{
+    display: flex;
+    max-width: 330px;
+    margin-left: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.book-pinjam{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #e6e5e5;
+    padding: 20px;
+    min-width: 290px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.book-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #e6e5e5;
+    padding: 20px;
+    min-width: 290px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.book-card img {
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.book-pinjam img{
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.book-title {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.book-info {
+    margin-bottom: 5px;
+}
+.footer{
+    width: 100%;
+}
