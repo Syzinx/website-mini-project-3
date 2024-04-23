@@ -1,1 +1,1 @@
-*link hosting : perpusku.wuaze.com
+ # link hosting : perpusku.wuaze.com
